@@ -33,7 +33,7 @@ app.get('/games', async (request, response) => {
     }
   })
 
-  return response.json([games])
+  return response.json(games)
 })
 
 // Criação de um novo anúncio:
@@ -78,14 +78,14 @@ app.get('/games/:id/ads', async (request, response) => {
       createdAt:'desc'
     }
   })
-  return response.json([ads.map(ad => {
+  return response.json(ads.map(ad => {
     return {
       ...ad,
       weekDays: ad.weekDays.split(','),
       hourStart: convertMinutesToHourString(ad.hourStart),
       hourEnd: convertMinutesToHourString(ad.hourEnd)
     }
-  })])
+  }))
 }) //O primeiro parâmetro é o endereço de acesso e o segundo é uma função que irá "rodar" nesse endereço.
 
 // Buscar discord pelo ID de anúncio:

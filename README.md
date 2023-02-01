@@ -14,7 +14,9 @@ language: Brazilian Portuguese.
 
 Projeto realizado durante o evento NLW da [Rocketseat](https://www.rocketseat.com.br) na edição "eSports" em 2022.  
 
-Todas as [bibliotecas]() e [tecnologias]() utilizadas estão disponíveis neste documento.  
+Todas as [bibliotecas](https://github.com/FrBreno/NLW_eSports#03-mais-bibliotecas-e-depend%C3%AAncias-do-projeto) e [tecnologias](https://github.com/FrBreno/NLW_eSports#02-tecnologias) utilizadas estão disponíveis neste documento.  
+
+Acesse [este link](https://www.figma.com/community/file/1150897317533332617) para o projeto no Figma.
 
 
 ## 🛠️ Projeto
